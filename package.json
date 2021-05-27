@@ -1,0 +1,28 @@
+{
+  "name": "nftrarity-chrome",
+  "version": "0.1.0",
+  "description": "💸 🧸 📈 A Chrome plugin to display the rarity of an NFT inline on OpenSea 🌊",
+  "main": "dist",
+  "repository": "https://github.com/cawfree/nftrarity-chrome",
+  "author": "Alex Thomas (@cawfree) <hello@cawfree.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "npx webpack --config background.config.js && npx webpack --config extension.config.js && cp manifest.json dist/ && zip -vr extension.zip dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.0",
+    "dotenv-webpack": "^7.0.2",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "nftrarityjs": "^0.1.0",
+    "node-html-parser": "^3.3.4"
+  }
+}
