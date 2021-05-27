@@ -1,6 +1,8 @@
 # nft-rarity-chrome
 💸 🧸 📈 A Chrome plugin to display the rarity of an NFT inline on OpenSea 🌊
 
+![yes it works](./assets/preview.gif)
+
 ## Okay you dirty apes!
 This is a super basic [**Chrome**](https://www.google.co.uk/chrome/) extension to help you **discover** NFT rarity on [**OpenSea**](https://opensea.io/), using metrics served by [**nftrarity.net**](https://nftrarity.net/) 💖
 
